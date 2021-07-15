@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Microsoft JhengHei Light";
+    background: url("https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGJhcmJlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    height: 75px;
+    width: 100%;
+}
+
+nav ul {
+    float: left;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 22px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+
+a.active {
+    background-color: white;
+    color: black;
+    transition: 2.5s;
+}
+
+a:hover {
+    background: orange;
+    color: white;
+    transition: 2.5s;
+}
+
+.footer {
+    margin-left: 1310px;
+    margin-top: 60px;
+    color: white;
+    font-size: 17px;
+    font-family: "Microsoft JhengHei Light";
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheet/afspraakmaken.css">
+    <title>Afspraak maken</title>
+    <link rel='icon' href='42527-barber-pole-icon.png' type='image/x-icon'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<body>
+<div role="img" class="loginbox">
+    <h1>Afspraak maken</h1>
+    <form id="formdata">
+        <label for="afspraaktype">Afspraaktype</label>
+        <select name="afspraaktype" id="afspraaktype">
+            <option value="haarWassenEnKnippen">Haar wassen en knippen</option>
+            <option value="HaarKnippen">Haar knippen</option>
+            <option value="HaarVerven">Haar verven</option>
+            <option value="HaarVervenEnKnippen">Haar verven en knippen </option>
+            <option value="Kaalscheren">Kaalscheren</option>
+        </select><br><br>
+        <label for="datumEnTijd">Datum/Tijd</label>
+        <input type="datetime-local" id="datumEnTijd" name="datumEnTijd">
+
+        <input type="submit" id="maakAfspraakButton" value="Maak Afspraak" onclick="window.location='afspraakmaken.html'">
+        <input type="button" style="cursor: pointer;" value="Afspraak Overzicht" onclick="window.location='afspraakoverzicht.html'">
+        <input type="button" style="cursor:pointer;" value="Uitloggen" onclick="window.location='index.html'">
+    </form>
+</div>
+
+
+</body>
+<script src="/javascript/afspraakmaken.js"></script>
+</html>

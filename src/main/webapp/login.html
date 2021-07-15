@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/stylesheet/login.css">
+  <title>Barbershop Pieter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<div role="img" class="loginbox">
+  <h1>Login Klant</h1>
+  <form id="formdata">
+    <label for="gn1">Gebruikersnaam</label>
+    <input type="text" placeholder="Voer gebruikersnaam in" id="gn1">
+    <label for="ww1">Wachtwoord</label>
+    <input type="password" placeholder="Voer wachtwoord in" id="ww1">
+    <input type="submit" id="inloggen" onclick="login()" value="Login"/>
+    <a href="accountaanmaken.html">Nog geen account?</a><br>
+    <a href="index.html">Terug naar het hoofdmenu</a><br><br><br><br>
+    <input type="submit" id="admin" onclick="document.location.href ='loginadmin.html'" value="Login Medewerker"/>
+  </form>
+</div>
+
+<!--<div class="link">-->
+<!--<a href="index.html">Terug naar het hoofdmenu</a>-->
+<!--</div>-->
+
+</body>
+
+<script type="text/javascript" src="/javascript/login.js"></script>
+
+</html>

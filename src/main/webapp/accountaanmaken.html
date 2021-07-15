@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/stylesheet/accountaanmaken.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Aanmaken</title>
+    <!--    <link rel='icon' href='afspraakmaken.html' type='image/x-icon'/>-->
+</head>
+
+<body>
+
+<div role="img" class="accountaanmakenbox">
+    <h1>Account Aanmaken</h1>
+    <form id="aanmaakform">
+        <label for="vn">Voornaam</label>
+        <input type="text" placeholder="Voer voornaam in" id="vn" min="3" name="voornaam">
+
+        <label for="an">Achternaam</label>
+        <input type="text" placeholder="Voer achternaam in" min="3" id="an" name="achternaam">
+
+        <label for="ea">Emailadres</label>
+        <input type="email" placeholder="Voer emailadres in" minlength="5" id="ea" name="emailadres">
+
+        <label for="tel">Telefoon</label>
+        <input type="tel" placeholder="Voer telefoonnummer in" id="tel" minlength="6" name="telefoon">
+
+        <label for="gn">Gebruikersnaam</label>
+        <input type="text" placeholder="Voer gebruikersnaam in" minlength="3" id="gn" name="gebruikersnaam">
+
+        <label for="ww">Wachtwoord</label> <br>
+        <input type="password" placeholder="Voer wachtwoord in" id="ww" minlength="4" name="wachtwoord">
+
+        <input type="submit" onclick="aanmaken()" value="Account Aanmaken" id="accountaanmaakbutton"/>
+        <a href="login.html">Heeft u al een account?</a><br>
+        <a href="index.html">Terug naar het hoofdmenu</a>
+    </form>
+</div>
+
+</body>
+
+<script src="/javascript/accountaanmaken.js"></script>
+
+</html>

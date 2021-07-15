@@ -1,0 +1,134 @@
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Microsoft JhengHei Light";
+        background: url("https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGJhcmJlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (min-width: 300px) {
+    /* For mobile phones: */
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Microsoft JhengHei Light";
+        background: url("https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGJhcmJlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+        background-size: cover;
+        background-repeat: repeat;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Microsoft JhengHei Light";
+        background: url("https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGJhcmJlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+        background-size: cover;
+        background-repeat: repeat;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+}
+
+/* gebruik media statement for tablet/phone/desktops
+pas image aan, de barbershop titel...
+ */
+
+.accountaanmakenbox{
+    width: 360px;
+    height: 700px;
+    background: orange;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 40px 30px;
+}
+
+.accountaanmakenbox h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.accountaanmakenbox label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.accountaanmakenbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.accountaanmakenbox input[type="text"], input[type="password"],
+ input[type="email"], input[type="tel"]
+{
+    border: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+}
+
+.accountaanmakenbox input[type="submit"]
+{
+    border:none;
+    outline: none;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+.accountaanmakenbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: white;
+    color: black;
+    -webkit-transition: all 1500ms ease;
+}
+
+.accountaanmakenbox a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: black;
+}
+
+.accountaanmakenbox a:hover{
+    color: white;
+    -webkit-transition: all 1500ms ease;
+}
+
+/*.link a{*/
+/*    text-decoration: none;*/
+/*    font-size: 12px;*/
+/*    line-height: 20px;*/
+/*    color: white;*/
+/*}*/
+
+/*.link a:hover{*/
+/*    color: black;*/
+/*    -webkit-transition: all 1500ms ease;*/
+/*}*/
+

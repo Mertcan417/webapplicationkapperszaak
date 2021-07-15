@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Microsoft JhengHei Light";
+    background: url("https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGJhcmJlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.loginbox{
+    width: 350px;
+    height: 500px;
+    background: orange;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 40px;
+}
+
+.loginbox h1{
+    margin: 3px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+
+.loginbox input[type="datetime-local"]
+{
+    border: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#afspraaktype
+{
+    border: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 2px;
+
+}
+
+.loginbox input[type="submit"], input[type="button"]
+{
+    border:none;
+    outline: none;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: white;
+    color: black;
+    -webkit-transition: all 1500ms ease;
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: black;
+
+
+}
+
+.loginbox input[type="button"]:hover
+{
+    cursor: pointer;
+    background: white;
+    color: black;
+    -webkit-transition: all 1500ms ease;
+}
